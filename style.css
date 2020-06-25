@@ -189,6 +189,10 @@ width: 100%;
     margin: 0 20px 20px 0;
 }
 
+.imagem-beneficios {
+    width: 60%;
+}
+
 .mapa {
     padding: 3em 0;
     width: 940px;
@@ -208,8 +212,6 @@ width: 100%;
 .beneficios {
     padding: 3em 0;
     background: #888888;
-    width: 940px;
-    margin: 0 auto;
 }
 
 .conteudo-beneficios {
@@ -231,6 +233,3 @@ width: 100%;
     font-weight: bold;
 }
 
-.imagem-beneficios {
-    width: 60%;
-}
