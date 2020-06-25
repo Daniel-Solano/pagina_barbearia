@@ -94,12 +94,8 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-
-}
-
 form {
-    margin: 40px 0;
+    margin: 40px auto;
 }
 
 form label, form legend {
@@ -249,7 +245,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .produtos li {
         width: auto;
     }
 
@@ -264,4 +260,5 @@ width: 100%;
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+
 }
