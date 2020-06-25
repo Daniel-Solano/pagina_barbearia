@@ -191,10 +191,21 @@ width: 100%;
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo {
     width: 940px;
     margin: 0 auto;
 }
@@ -227,6 +238,10 @@ width: 100%;
 
 .itens {
     line-height: 1.5;
+}
+
+.itens::before {
+    content: "🟊";
 }
 
 .itens:first-child {
